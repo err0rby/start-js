@@ -1,0 +1,22 @@
+let age = 20;
+let birthdayYear = 2002;
+let birthNumber = 14;
+let brotherValue = 1;
+let sisterValue = 0;
+let familyValue = 5;
+let busPrice = 30;
+let currentYear = 2022;
+let dollarCourse = 50;
+let euroCourse = 55;
+let bitcoinCourse = 20000; 
+
+let currentAge = currentYear - birthdayYear;
+let birthYear = currentYear - age;
+let sumFamily = brotherValue + sisterValue;
+let euro_1000 = euroCourse * 1000;
+let dollar_2 = dollarCourse * 2.5;
+let rusBitcoin = bitcoinCourse / 10000;
+let americaBus = busPrice / dollarCourse;
+let noValueFamily = familyValue - brotherValue - sisterValue;
+let empty = 0 / age;
+let myAge_35 = 35 - age;
